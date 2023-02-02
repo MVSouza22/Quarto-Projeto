@@ -1,0 +1,126 @@
+body {
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 16px;
+    width: 1440px;
+    margin: 0;
+    overflow: hidden;
+}
+
+main {
+    background-color: white;
+    border: 5px solid #03596633;
+    width: 400px;
+    height: 650px;
+    border-radius: 25px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: -30%;
+    box-shadow: 0px 10px 0px 3px  #05deff15
+}
+
+#foto {
+    width: 410px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: -1%;
+}
+
+#titulo {
+    color: hsl(223, 47%, 23%);
+}
+
+#descricao {
+    color: hsl(224, 23%, 55%);
+}
+
+.grupo {
+    text-align: center;
+    width: 300px;
+    font-size: 16px;
+    margin: auto;
+}
+
+
+.plan {
+    display: flex;
+    gap: 12%;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: hsl(223, 47%, 23%);
+}
+
+#icone {
+    margin-top: 5%;
+}
+
+#change{
+    margin-top: 10%;
+}
+
+#preco {
+    margin-left: 33%;
+    margin-top: -4%;
+    color: hsl(224, 23%, 55%);
+}
+
+#pagamento {
+        background:linear-gradient(to bottom, #0900ff 5%, #1100ff 100%);
+        border: none;
+        background-color:#0900ff;
+        border-radius:8px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:'Red Hat Display', sans-serif;
+        font-size:16px;
+        font-weight:bold;
+        padding:13px 76px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2600ff;
+        margin-left: 11%;
+        margin-top: 8%;
+    }
+    #pagamento:hover {
+        background:linear-gradient(to bottom, #1100ff 5%, #0900ff 100%);
+        background-color:#1100ff;
+    }
+    #pagamento:active {
+        position:relative;
+        top:1px;
+}
+
+#cancelar {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    border: none;
+    background-color:#ffffff;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color: hsl(224, 23%, 55%);
+    font-family:'Red Hat Display', sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    padding:13px 105px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+#cancelar:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+}
+#cancelar:active {
+	position:relative;
+	top:1px;
+}
+
+#fundo{
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+    margin: 0;
+}
+
+
+
